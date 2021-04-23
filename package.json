@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "yarn build && jest test",
-    "build": "npx asb"
+    "test": "yarn build && asp",
+    "build": "npx asb",
+    "jest": "yarn build && jest test"
   },
   "keywords": [],
   "author": "",

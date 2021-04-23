@@ -89,7 +89,7 @@ export function joinGame(gameId: u32): string {
   return "Joined the game, lets play!";
 }
 
-function verifyBoard(line0: PersistentVector<i8>, line1: PersistentVector<i8>, line2: PersistentVector<i8>): i8 {
+export function verifyBoard(line0: PersistentVector<i8>, line1: PersistentVector<i8>, line2: PersistentVector<i8>): i8 {
   if(isEqual(line0[0], line0[1], line0[2])) {
     return line0[0];
   } else if (isEqual(line1[0], line1[1], line1[2])) {
